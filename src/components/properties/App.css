@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+.header-for-all-components {
+  font-size: 1.2rem;
+  background-color: rgba(113, 113, 93, 0.449);
+  height: auto;
+}
+.header-for-all-components ul {
+  font-size: 1.2rem;
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.header-for-all-components ul li a {
+  margin: 30px;
+  color: black;
+}
